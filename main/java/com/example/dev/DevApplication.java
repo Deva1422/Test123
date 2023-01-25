@@ -18,6 +18,7 @@ public class DevApplication {
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "nameee", defaultValue = "World!") String nam) {
 		return String.format("Hello %s!", nam);
+		//added line21Git
 	}
 
 }
